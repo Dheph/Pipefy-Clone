@@ -1,9 +1,17 @@
 import React from 'react';
 
+import GlobalStyle from './styles/globalStyle'
+
+import Header from './Components/Header'
+import Board from './Components/Board'
+
+
 function App() {
   return (
    <>
-    <h1>First commit</h1>
+    <Header />
+    <Board />
+    <GlobalStyle />
    </>
   );
 }
