@@ -10,7 +10,9 @@ export default createGlobalStyle`
     outline:0;
     box-sizing:border-box;
 }
-
+html, body, #root {
+    height:100%;
+}
 body{
     font: 14px 'Roboto', sans-serif;
     background: #ecf1f8;

@@ -7,7 +7,7 @@ export const Container = styled.div`
     background:#7159c1;
     color:#FFF;
     
-    display:Flex;
+    display:flex;
     align-items:center;
 
 `;
